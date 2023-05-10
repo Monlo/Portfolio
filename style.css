@@ -1,3 +1,7 @@
 .project {
     height: 450px; /* or any other fixed height you want */
   }
+
+.media {
+    height: 350px; /* or any other fixed height you want */
+  }
