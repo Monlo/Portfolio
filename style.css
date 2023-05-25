@@ -1,12 +1,39 @@
 .project {
-    height: 450px; /* or any other fixed height you want */
+    height: 550px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
   }
 
 .media {
-    height: 350px; /* or any other fixed height you want */
+    height: 350px; 
   }
 
 .articles {
-    height: 400px; /* or any other fixed height you want */
+    height: 400px; 
   }
 
+  .project-description {
+    text-align: justify;
+  }
+
+  .otherproject {
+    height: 450px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+
+
+  .otherarticle {
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
